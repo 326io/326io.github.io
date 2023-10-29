@@ -194,22 +194,26 @@ body {
 .order {
   width: 130px;
   height: 50px;
-  color: #ffffff;
-  background-color: #ad343e;
-  border-style: solid;
+  border-width: 2px;
   padding: 15px;
-  border-radius: 30px;
-  margin: 20px;
+  border-style: solid;
+  text-align: center;
+  vertical-align: middle;
   border-radius: 40px;
+  margin: 20px;
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 45%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  vertical-align: middle;
   justify-content: center;
-  display: inline-block;
-  border: 0px;
+}
+.order:hover {
+  width: 130px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #ad343e;
+  border-width: 0px;
 }
 
 .menu {
@@ -224,10 +228,18 @@ body {
   margin: 20px;
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 45%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   justify-content: center;
+}
+
+.menu:hover {
+  width: 130px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #ad343e;
+  border-width: 0px;
 }
 .link img {
   width: 110px;
