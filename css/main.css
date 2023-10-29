@@ -155,7 +155,7 @@ body {
   text-align: center;
   position: fixed;
   left: calc(100vw - 300px);
-  bottom: calc(100vh - 150px);
+  bottom: calc(100vh - 140px);
   border-radius: 40px;
 }
 
