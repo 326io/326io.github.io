@@ -202,11 +202,6 @@ body {
   border-radius: 40px;
   margin: 20px;
   position: relative;
-  top: 50%;
-  left: 45%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  justify-content: center;
 }
 .order:hover {
   width: 130px;
@@ -227,11 +222,6 @@ body {
   border-radius: 40px;
   margin: 20px;
   position: relative;
-  top: 50%;
-  left: 45%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  justify-content: center;
 }
 
 .menu:hover {
@@ -247,4 +237,8 @@ body {
   right: 185px;
   position: absolute;
   vertical-align: middle;
+}
+
+.b1_b2 {
+  text-align: center;
 }
